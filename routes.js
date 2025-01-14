@@ -9,9 +9,10 @@
 
 
 //dependencies
-const { sampleHandler } = require("./handlers/routerHandler/handler");
+const { sampleHandler, rootHandler } = require("./handlers/routerHandler/handler");
 
 const routes={
+    '':rootHandler,
     'sample':sampleHandler
 }
 

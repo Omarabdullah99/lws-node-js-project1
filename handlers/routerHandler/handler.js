@@ -15,4 +15,10 @@ handler.sampleHandler=(requestProoerties,callback)=>{
 
 }
 
+handler.rootHandler=(requestProoerties,callback)=>{
+    callback(200,{
+        message:'this is home page'
+    })
+}
+
 module.exports= handler
